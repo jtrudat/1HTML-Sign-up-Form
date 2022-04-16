@@ -12,23 +12,58 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form> <!-- TODO: Set Action and Method Properties -->
+        <form method="GET" action="results.html"> <!-- TODO: Set Action and Method Properties -->
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
                 <!-- TODO: Create a "lastname" input with type "text" -->
+                <label for="lastname">Your Last Name</label>
+                <input type="text" id="lastname" name="lastname">
             </div>
             <!-- TODO: Make fieldset and legend -->
             <!-- Todo: Email Input -->
+            <div>
+                <label for="email">Your email</label>
+                <input type="text" id="email" name="email">
+            </div>
             <!-- Todo: Street Address Input -->
+            <div>
+                <label for="street">Your physical address</label>
+                <input type="text" id="street" name="street">
+            </div>
             <!-- Todo: City, State, and Zip Inputs -->
+            <div>
+                <label for="citystatezip">City, State, Zip Code</label>
+                <input type="text" id="citystatezip" name="citystatezip">
+            </div>
 
             <!-- TODO: Second fieldset -->
             <!-- TODO: Radio buttons for selecting preferred destination -->
+            <div>
+                choose your destination:
+                <label for="miami">Miami</label>
+                <input type="radio" id="miami" name="miami">
+                <label for="hawaii">Hawaii</label>
+                <input type="radio" id="hawaii" name="hawaii">
+                <label for="denver">Denver</label>
+                <input type="radio" id="denver" name="denver">
+            </div>
+            <br>
             <!-- TODO: Color input for selecting favorite color -->
+            <div>
+                <label for="favcolor">Your favorite color</label>
+                <input type="text" id="favcolor" name="favcolor">
+            </div>
             <!-- TODO: Checkboxes for selecting extra add-ons -->
-            
+            <p>Extra add ons:</p>
+            <label for="music">Music</label>
+            <input type="checkbox" id="music" name="music">
+            <label for="hiking">Hiking</label>
+            <input type="checkbox" id="hiking" name="hiking">
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" id="swimming" name="swimming">
             <!-- TODO: Submit Button -->
+            <input type="submit" value="submit your request"
         </form>
     </main>
     <footer>
