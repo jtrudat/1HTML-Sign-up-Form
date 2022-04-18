@@ -73,3 +73,7 @@ label {
 .required-field {
     color: red;
 }
+
+.destinations{
+    display: inline-block;
+}
